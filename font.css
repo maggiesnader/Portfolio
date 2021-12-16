@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'BogamRegular';
+  src: url('fonts/BogamRegular.eot');
+  src: url('fonts/BogamRegular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/BogamRegular.svg#BogamRegular') format('svg'),
+       url('fonts/BogamRegular.ttf') format('truetype'),
+       url('fonts/BogamRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
