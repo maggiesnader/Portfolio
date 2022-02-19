@@ -29,7 +29,11 @@
             <a style="color: rgba(255, 255, 255, 0.897);"
                 href="https://stackoverflow.com/users/17639259/maggiesnader?tab=profile" target="_blank"
                 role="button"><i class="fa fa-stack-overflow fa-sm"></i></a>
+            <a href="#about" class="internalLinks" style="color:rgba(255, 255, 255, 0.897); text-decoration: none;">About Me</a>
+            <a href="#projects" class="internalLinks" style="color:rgba(255, 255, 255, 0.897); text-decoration: none;">Projects</a>
+            <a href="#contact" class="internalLinks" style="color:rgba(255, 255, 255, 0.897); text-decoration: none;">Contact Me</a>
         </div>
+        
     </nav>
 
     <!-- Intro "Hello Im Maggie" -->
@@ -44,74 +48,90 @@
         </div>
     </div>
 
-    <div class="wrapper">
+    <div class="detail-wrapper">
         <!--ABOUT ME description-->
-        <div class="description"
-            style="background-color: rgba(0, 0, 0, 0.60); color: rgba(255, 255, 255, 0.897); margin: 10%; padding: 3% 5%">
-            <h5>
-                I am a new developer and long-time creator. I come from a diverse background in various disciplines including; 
-                food service (FOH, BOH, and management), seamstressing, commercial embroidery, LEAN manufacturing,
-                horticulture, music writing, audio recording and producing, and photography. My favorite part of a day is when creativity meets logic.
+        <!--<div class="detail-wrapper" >-->
+            <div class=" detail detail-transition">
+                <div class="description" id="about"
+                    style="background-color: rgba(0, 0, 0, 0.60); color: rgba(255, 255, 255, 0.897); margin: 10%; padding: 3% 5%">
+                    <h5>
+                        I am a new developer and long-time creator. I come from a diverse background in various disciplines including; 
+                        food service (FOH, BOH, and management), seamstressing, commercial embroidery, LEAN manufacturing,
+                        horticulture, music writing, audio recording and producing, and photography. My favorite part of a day is when creativity meets logic.
                 
-            </h5>
-        </div>
+                    </h5>
+                </div>
+            </div>
+        <!--</div>-->
 
         <!-- project cards -->
-        <div class="projects"
-            style="background-color: rgba(0, 0, 0, 0.60); color: rgba(255, 255, 255, 0.897); margin: 10%; padding: 3% 5%">
-            <!-- 1 -->
-            <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
-                <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
-                <div class="card body" style="padding: 1%">
-                    <h5 class="card-title">EFA Pair-Program Clicker Game</h4>
-                        <p class="card-text">A Clicker Game where you sell candy bars in order to rack up enough cash in the bank to 'retire'. But, watch out, there are a few surprises along the way.</p>
-                        <a href="https://github.com/maggiesnader/ClickerGame" target="_blank" class="btn btn-dark">GO TO
-                            PAGE</a>
+        <!--<div class="projectDetail-wrapper">-->
+        <div class="detail detail-transition">
+            <div class="projects" id="projects"
+                style="background-color: rgba(0, 0, 0, 0.60); color: rgba(255, 255, 255, 0.897); margin: 10%; padding: 3% 5%">
+                <!-- 1 -->
+                <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
+                    <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
+                    <div class="card body" style="padding: 1%">
+                        <h5 class="card-title">Seedling</h4>
+                            <p class="card-text">Seedling is an MVC application where users can make, store, and track garden plots and the plants within them. It also has a custom calendar emplemented with DhtmlX Scheduler.</p>
+                            <a href="https://growlogwebmvc.azurewebsites.net" target="_blank" class="btn btn-dark">GO TO PAGE</a>
+                    </div>
                 </div>
-            </div>
-            <!-- 2 -->
-            <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
-                <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
-                <div class="card body" style="padding: 1%">
-                    <h5 class="card-title">EFA Console App Challenges</h4>
-                        <p class="card-text">Console Apps based on a few different prompts from EFA. Apps for creating and managing a basic menu, tracking and monitoring the cost of company outings, and an app to send out different greetings to specified customers.  </p>
-                        <a href="https://github.com/maggiesnader/GoldBadgeConsoleAppChallenges" target="_blank"
+                <!-- 2 -->
+                <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
+                    <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
+                    <div class="card body" style="padding: 1%">
+                        <h5 class="card-title">EFA Pair-Program Clicker Game</h4>
+                         <p class="card-text">A Clicker Game where you sell candy bars in order to rack up enough cash in the bank to 'retire'. But, watch out, there are a few surprises along the way.</p>
+                            <a href="https://github.com/maggiesnader/ClickerGame" target="_blank" class="btn btn-dark" style="justify-items: end;">GO TO
+                                PAGE</a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
+                    <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
+                    <div class="card body" style="padding: 1%">
+                        <h5 class="card-title">EFA Console App Challenges</h4>
+                            <p class="card-text">Console Apps based on a few different prompts from EFA. Apps for creating and managing a basic menu, tracking and monitoring the cost of company outings, and an app to send out different greetings to specified customers.  </p>
+                            <a href="https://github.com/maggiesnader/GoldBadgeConsoleAppChallenges" target="_blank"
+                                class="btn btn-dark">GO TO PAGE</a>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
+                    <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
+                    <div class="card body" style="padding: 1%">
+                        <h5 class="card-title">EFA Group API Project</h4>
+                            <p class="card-text">We created an app where a user can track completed workouts and track their progress.</p>
+                            <a href="https://github.com/koleahmantle/FitnessApp" target="_blank" 
                             class="btn btn-dark">GO TO PAGE</a>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
+                    <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
+                    <div class="card body" style="padding: 1%">
+                        <h5 class="card-title">"My Art WebPage"</h4>
+                            <p class="card-text">This will be a page where I display photography and collage art I make.</p>
+                            <a href="#" target="_blank" class="btn btn-dark">GO TO PAGE</a>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
+                    <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
+                    <div class="card body" style="padding: 1%">
+                        <h5 class="card-title">"My Audio WebPage"</h4>
+                            <p class="card-text">This will be a page where you can listen to music that I have made...Meanwhile I have linked my latest at home writing and recording project. (However, currently, I have had nothing to do with making the webpage)</p>
+                            <a href="https://sorespot.bandcamp.com/album/gifts-of-consciousness" target="_blank" class="btn btn-dark">GO TO PAGE</a>
+                    </div>
                 </div>
             </div>
-            <!-- 3 -->
-            <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
-                <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
-                <div class="card body" style="padding: 1%">
-                    <h5 class="card-title">EFA Group API Project</h4>
-                        <p class="card-text">We created an app where a user can track completed workouts and track their progress.</p>
-                        <a href="https://github.com/koleahmantle/FitnessApp" target="_blank" 
-                        class="btn btn-dark">GO TO PAGE</a>
-                </div>
-            </div>
-            <!-- 4 -->
-            <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
-                <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
-                <div class="card body" style="padding: 1%">
-                    <h5 class="card-title">"My Art WebPage"</h4>
-                        <p class="card-text">This will be a page where I display photography and collage art I make.</p>
-                        <a href="#" target="_blank" class="btn btn-dark">GO TO PAGE</a>
-                </div>
-            </div>
-            <!-- 5 -->
-            <div class="card" style="width: 200px; height: auto; margin: 5%; padding: 0.5%;">
-                <img class="card-img-bottom" src="assets/rainbow.2.jpg" alt="Image" width="200px" height="200px">
-                <div class="card body" style="padding: 1%">
-                    <h5 class="card-title">"My Audio WebPage"</h4>
-                        <p class="card-text">This will be a page where you can listen to music that I have made...Meanwhile I have linked my latest at home writing and recording project. (However, currently, I have had nothing to do with making the webpage)</p>
-                        <a href="https://sorespot.bandcamp.com/album/gifts-of-consciousness" target="_blank" class="btn btn-dark">GO TO PAGE</a>
-                </div>
-            </div>
-
         </div>
+        <!--</div>-->
 
         <!-- contact form -->
-        <div class="contactMe"
+        <div class="contactMe" id="contact"
             style="background-color: rgba(0, 0, 0, 0.60); color: rgba(255, 255, 255, 0.897); width: 80vw; margin: 5% auto; padding: 3%;">
             <div class="section">
                 <p class="text-center">
@@ -163,7 +183,8 @@
 
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script> 
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js" defer></script>
     <script src="main.js" defer></script>
 
 </body>

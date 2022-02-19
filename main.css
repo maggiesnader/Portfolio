@@ -12,11 +12,35 @@ body {
     src: url(fonts/BogamRegular.ttf);
 }
 
+
+
+
+.detail {
+    opacity: 0;
+    transform: scale(1.2);
+}
+@media (prefers-reduced-motion: no-preference) {
+    .detail {
+        transition: opacity 1.5s ease, transform 1.5s ease;
+    }
+}
+.detail-transition{
+    opacity:1;
+    transform: none;
+}
+
+
+
+
+
+
+
+
 .description {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.projects {
+#projects {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     display: flex;
